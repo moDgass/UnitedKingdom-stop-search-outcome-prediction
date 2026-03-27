@@ -1,0 +1,36 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local experiment/model artifacts
+xgb_model.tar.gz
+xgb_model_artifacts/
+*.log
+
+# Local generated datasets (keep source data out of git)
+train_final.csv
+validation_final.csv
+test_final.csv
+accuracy_improvement_results.csv
+
+# Optional: raw bulk data folders (large)
+UK Stop and Search Data, February 2023 to January 2026/
+
+# Optional local scratch scripts
+_nb_cleanup.py
+_nb_make_cleaned.py
+_nb_make_cleaned_by_content.py

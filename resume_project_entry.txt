@@ -1,0 +1,6 @@
+UK Stop-and-Search Outcome Prediction | Python, AWS SageMaker, XGBoost
+- Built an end-to-end machine learning pipeline to predict UK police stop-and-search outcomes using 1,459 monthly CSV files (2023–2026).
+- Engineered and encoded tabular features with pandas/scikit-learn, handled class imbalance, and generated reproducible train/validation/test datasets.
+- Trained XGBoost on AWS SageMaker with S3-based data flow; retrieved artifacts and performed offline local evaluation.
+- Improved model quality via threshold tuning, hyperparameter search, early stopping, and ensemble testing.
+- Achieved ~0.88 ROC-AUC and ~82.5% test accuracy in local optimization experiments; latest SageMaker training runtime was 842 seconds.

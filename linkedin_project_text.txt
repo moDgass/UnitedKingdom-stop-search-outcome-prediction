@@ -1,0 +1,25 @@
+Project name:
+UK Stop-and-Search Outcome Prediction with AWS SageMaker and XGBoost
+
+Description (LinkedIn-ready):
+Built an end-to-end machine learning project to predict UK police stop-and-search outcomes using monthly datasets from February 2023 to January 2026. I designed a complete tabular ML pipeline covering ingestion, cleaning, feature engineering, encoding, class-imbalance handling, train/validation/test splitting, cloud training, and local evaluation.
+
+The workflow combines Python preprocessing with AWS SageMaker XGBoost training, S3 data flow, and model artifact retrieval for offline scoring. I evaluated model performance with ROC-AUC, accuracy, precision, recall, F1, confusion matrix analysis, and validation-based threshold tuning.
+
+To improve performance, I implemented additional local experiments with advanced feature engineering, hyperparameter search, early stopping, and ensemble comparison. Results reached about 0.88 ROC-AUC and about 82.5% test accuracy in local experiments.
+
+This project demonstrates practical ML engineering skills: turning raw multi-file data into reproducible model training workflows with clear metrics and business-ready reporting.
+
+Top 5 skills:
+1) Python
+2) AWS SageMaker
+3) XGBoost
+4) Pandas
+5) Machine Learning Model Evaluation
+
+Suggested media to attach:
+- GitHub repository URL
+- Notebook screenshots (ingestion, training, evaluation)
+- Confusion matrix/result table image
+- 1-page project summary PDF
+- Optional slide deck
