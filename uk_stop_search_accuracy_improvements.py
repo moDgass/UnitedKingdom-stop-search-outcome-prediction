@@ -2,6 +2,7 @@ import glob
 import os
 import re
 import warnings
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -21,14 +22,15 @@ from sklearn.preprocessing import OneHotEncoder
 
 warnings.filterwarnings("ignore")
 
-RAW_ROOT = r"C:\Users\bazer\Desktop\PythonML\UK Stop and Search Data, February 2023 to January 2026"
+PROJECT_ROOT = Path(__file__).resolve().parent
+RAW_ROOT = PROJECT_ROOT / "UK Stop and Search Data, February 2023 to January 2026"
 MAX_FILES = 240
 PER_FILE_SAMPLE = 350
 RANDOM_STATE = 42
 
 
 def load_sampled_raw_data() -> pd.DataFrame:
-    all_raw_files = glob.glob(os.path.join(RAW_ROOT, "**/*.csv"), recursive=True)
+    all_raw_files = glob.glob(str(RAW_ROOT / "**/*.csv"), recursive=True)
     if not all_raw_files:
         raise FileNotFoundError(f"No CSV files found under: {RAW_ROOT}")
 

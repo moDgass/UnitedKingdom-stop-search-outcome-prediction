@@ -52,3 +52,7 @@ validation_data.csv
 test_data.csv
 catboost_info/
 insert_benchmark.py
+
+# Local publishing helper text (keep private/local)
+linkedin_project_text.txt
+resume_project_entry.txt
