@@ -34,3 +34,21 @@ UK Stop and Search Data, February 2023 to January 2026/
 _nb_cleanup.py
 _nb_make_cleaned.py
 _nb_make_cleaned_by_content.py
+
+# Other local notebooks not part of this project repo
+California Housing Market Prediction.ipynb
+UK Stop and Search Data, 2023-02 -2026-01_backup_before_clean_replace.ipynb
+UK Stop and Search Data, 2023-02 -2026-01_cleaned.ipynb
+UK Stop and Search Data, 2023-02 -2026-01_reordered.ipynb
+Untitled-1.ipynb
+
+# Other local datasets / scratch outputs
+california_housing.csv
+train.csv
+validation.csv
+test.csv
+train_data.csv
+validation_data.csv
+test_data.csv
+catboost_info/
+insert_benchmark.py
