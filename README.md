@@ -1,6 +1,6 @@
 # UK Stop-and-Search Outcome Prediction (AWS SageMaker + XGBoost)
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-4.0-3776AB?logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-EC4E20)
 ![AWS SageMaker](https://img.shields.io/badge/AWS-SageMaker-FF9900?logo=amazonaws&logoColor=white)
 ![Task](https://img.shields.io/badge/Task-Binary%20Classification-blue)
